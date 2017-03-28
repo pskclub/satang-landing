@@ -1934,7 +1934,6 @@ input.submit:hover {
     color: #111;
 }
 
-
 .sub-nav {
     line-height: 1;
     padding-top: 5px;
@@ -2366,7 +2365,12 @@ a.nav-clients.active {
     color: #1a1a1a
 }
 
-p.see-more , a{
+p.see-more > a {
+    font-size: 16px;
+    color: #525d63;
+}
+
+p.see-more {
     margin-top: 60px;
     font-size: 16px;
     color: #525d63;
