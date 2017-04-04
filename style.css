@@ -149,6 +149,14 @@ body {
     height: 100vh;
 }
 
+.height-600 {
+    height: 700px;
+}
+
+.height-100vh {
+    height: 100vh;
+}
+
 .table,
 .table-cell {
     display: table;
@@ -2374,4 +2382,49 @@ p.see-more {
     margin-top: 60px;
     font-size: 16px;
     color: #525d63;
+}
+
+.home-slider .slider-text > h1 {
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.home-slider .slider-text > p {
+    font-size: 19px;
+    margin-top: 20px
+}
+
+.home-slider .slider-text > a {
+    margin-top: 20px
+}
+
+.home-slider img {
+    max-height: 400px;
+}
+
+.home-slider > div > p {
+    width: 116px;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    bottom: 8px;
+    right: 0;
+    line-height: 1.5;
+}
+
+.home-slider > div > p:before {
+    width: 20px;
+    height: 2px;
+    background: #fff;
+    margin: 10px 0;
+    display: block;
+    content: "";
+}
+
+.home-slider > div > p > a {
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 0.2em 0;
+    text-decoration: none;
+    display: inline-block;
 }
